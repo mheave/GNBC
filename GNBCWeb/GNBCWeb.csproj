@@ -119,7 +119,16 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="Global.asax" />
+    <Content Include="Resources\bootstrap-3.3.2-dist\css\bootstrap-theme.css" />
+    <Content Include="Resources\bootstrap-3.3.2-dist\css\bootstrap-theme.min.css" />
+    <Content Include="Resources\bootstrap-3.3.2-dist\css\bootstrap.css" />
+    <Content Include="Resources\bootstrap-3.3.2-dist\css\bootstrap.min.css" />
+    <Content Include="Resources\bootstrap-3.3.2-dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Resources\bootstrap-3.3.2-dist\js\bootstrap.js" />
+    <Content Include="Resources\bootstrap-3.3.2-dist\js\bootstrap.min.js" />
+    <Content Include="Resources\bootstrap-3.3.2-dist\js\npm.js" />
     <Content Include="Resources\CSS\bootstrap.css" />
+    <Content Include="Resources\CSS\carousel.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -144,6 +153,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\_ViewStart.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\bootstrap-3.3.2-dist\css\bootstrap-theme.css.map" />
+    <Content Include="Resources\bootstrap-3.3.2-dist\css\bootstrap.css.map" />
+    <Content Include="Resources\bootstrap-3.3.2-dist\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Resources\bootstrap-3.3.2-dist\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Resources\bootstrap-3.3.2-dist\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Resources\bootstrap-3.3.2-dist\fonts\glyphicons-halflings-regular.woff2" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
