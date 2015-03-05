@@ -133,6 +133,7 @@
     <Content Include="Resources\images\goldCoin.jpg" />
     <Content Include="Resources\images\questionMark.png" />
     <Content Include="Resources\images\silverCoin.jpg" />
+    <Content Include="Resources\images\tax.jpg" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
