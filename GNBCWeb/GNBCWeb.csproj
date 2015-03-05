@@ -129,6 +129,7 @@
     <Content Include="Resources\bootstrap-3.3.2-dist\js\npm.js" />
     <Content Include="Resources\CSS\bootstrap.css" />
     <Content Include="Resources\CSS\carousel.css" />
+    <Content Include="Resources\images\goldbackground.jpg" />
     <Content Include="Resources\images\goldCoin.jpg" />
     <Content Include="Resources\images\questionMark.png" />
     <Content Include="Resources\images\silverCoin.jpg" />
