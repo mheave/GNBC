@@ -129,6 +129,8 @@
     <Content Include="Resources\bootstrap-3.3.2-dist\js\npm.js" />
     <Content Include="Resources\CSS\bootstrap.css" />
     <Content Include="Resources\CSS\carousel.css" />
+    <Content Include="Resources\images\goldCoin.jpg" />
+    <Content Include="Resources\images\silverCoin.jpg" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
