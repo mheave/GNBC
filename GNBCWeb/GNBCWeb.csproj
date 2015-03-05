@@ -130,10 +130,12 @@
     <Content Include="Resources\CSS\bootstrap.css" />
     <Content Include="Resources\CSS\carousel.css" />
     <Content Include="Resources\images\goldbackground.jpg" />
+    <Content Include="Resources\images\goldBar.jpg" />
     <Content Include="Resources\images\goldCoin.jpg" />
     <Content Include="Resources\images\questionMark.png" />
     <Content Include="Resources\images\silverCoin.jpg" />
     <Content Include="Resources\images\tax.jpg" />
+    <Content Include="Resources\images\vault.jpg" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
