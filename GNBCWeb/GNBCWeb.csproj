@@ -162,6 +162,9 @@
     <Content Include="Resources\bootstrap-3.3.2-dist\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Resources\bootstrap-3.3.2-dist\fonts\glyphicons-halflings-regular.woff2" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\About.cshtml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
