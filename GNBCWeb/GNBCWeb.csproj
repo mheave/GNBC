@@ -130,6 +130,7 @@
     <Content Include="Resources\CSS\bootstrap.css" />
     <Content Include="Resources\CSS\carousel.css" />
     <Content Include="Resources\images\goldCoin.jpg" />
+    <Content Include="Resources\images\questionMark.png" />
     <Content Include="Resources\images\silverCoin.jpg" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
