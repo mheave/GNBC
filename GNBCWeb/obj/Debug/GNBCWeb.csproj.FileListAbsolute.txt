@@ -54,3 +54,5 @@ D:\greatnorthbullioncompany\GNBCWeb\bin\System.Web.WebPages.Razor.xml
 D:\greatnorthbullioncompany\GNBCWeb\obj\Debug\GNBCWeb.csprojResolveAssemblyReference.cache
 D:\greatnorthbullioncompany\GNBCWeb\obj\Debug\GNBCWeb.dll
 D:\greatnorthbullioncompany\GNBCWeb\obj\Debug\GNBCWeb.pdb
+D:\greatnorthbullioncompany\GNBCWeb\bin\GNB.dll
+D:\greatnorthbullioncompany\GNBCWeb\bin\GNB.pdb

@@ -42,6 +42,7 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -109,6 +110,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\SignUpController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Data\GNBC_DAL.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GNBC_DAL.dbml</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -171,6 +179,36 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\About.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\GNBC_DAL.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>GNBC_DAL.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\GNBC_DAL.dbml.layout">
+      <DependentUpon>GNBC_DAL.dbml</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\PreciousMetals\PreciousMetals\GNB\GNB.csproj">
+      <Project>{75315ecf-93a3-47fa-b79b-8fc97e8741ac}</Project>
+      <Name>GNB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\SignUp.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\User\SignUp.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\SignUp\SignUp.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
