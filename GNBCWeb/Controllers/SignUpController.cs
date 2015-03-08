@@ -11,7 +11,7 @@ namespace GNBCWeb.Controllers
         //
         // GET: /SignUp/
 
-        public ActionResult SignUp()
+        public ActionResult Index()
         {
             return View();
         }

@@ -144,6 +144,7 @@
     <Content Include="Resources\images\home_nest_egg.jpg" />
     <Content Include="Resources\images\intrinsic-value.jpeg" />
     <Content Include="Resources\images\intrinsicValue.jpg" />
+    <Content Include="Resources\images\joinus.jpg" />
     <Content Include="Resources\images\questionMark.png" />
     <Content Include="Resources\images\silverCoin.jpg" />
     <Content Include="Resources\images\tax.jpg" />
@@ -212,7 +213,7 @@
     <Content Include="Views\User\SignUp.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\SignUp\SignUp.cshtml" />
+    <Content Include="Views\SignUp\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
