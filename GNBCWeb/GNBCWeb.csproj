@@ -110,6 +110,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Controllers\SignUpController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Data\GNBC_DAL.designer.cs">
@@ -132,9 +133,11 @@
     <Content Include="Resources\bootstrap-3.3.2-dist\css\bootstrap.css" />
     <Content Include="Resources\bootstrap-3.3.2-dist\css\bootstrap.min.css" />
     <Content Include="Resources\bootstrap-3.3.2-dist\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Resources\bootstrap-3.3.2-dist\js\bootstrap.js" />
-    <Content Include="Resources\bootstrap-3.3.2-dist\js\bootstrap.min.js" />
-    <Content Include="Resources\bootstrap-3.3.2-dist\js\npm.js" />
+    <Content Include="Resources\CSS\shop-item.css" />
+    <Content Include="Resources\js\bootstrap.js" />
+    <Content Include="Resources\js\bootstrap.min.js" />
+    <Content Include="Resources\js\jquery.js" />
+    <Content Include="Resources\js\npm.js" />
     <Content Include="Resources\CSS\bootstrap.css" />
     <Content Include="Resources\CSS\carousel.css" />
     <Content Include="Resources\images\dollarbogroll.jpg" />
@@ -161,6 +164,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Resources\bootstrap-3.3.2-dist\js\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -214,6 +218,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\SignUp\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Products\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Products\Details.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
