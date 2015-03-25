@@ -38,7 +38,7 @@ namespace GNBCWeb.Services {
 				Title = "Gold coins",
 				Description = "Some desciptive text about Gold",
 				Price = 199.99,
-				Image = "someimage.jpg"
+				Image = "gold coin 700x400.jpg"
 			});
 
 			Products.Add(new Product()
@@ -47,7 +47,7 @@ namespace GNBCWeb.Services {
 				Title = "Gold bars",
 				Description = "Some desciptive text about Gold bars",
 				Price = 199.99,
-				Image = "someimage.jpg"
+				Image = "gold bar 700x400.jpg"
 			});
 
 					Products.Add(new Product()
@@ -65,7 +65,7 @@ namespace GNBCWeb.Services {
 				Title = "Silver bars",
 				Description = "Some desciptive text about silver",
 				Price = 199.99,
-				Image = "someimage.jpg"
+				Image = "silver bars 700x400.jpg"
 			});
 		}
 	}
