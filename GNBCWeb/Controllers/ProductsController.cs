@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using GNBCWeb.Services;
+using GNBCWeb.ViewModels;
 
 namespace GNBCWeb.Controllers
 {
@@ -10,15 +12,25 @@ namespace GNBCWeb.Controllers
     {
         //
         // GET: /Product/
+		ProductService productService;
+
+		public ProductsController() {
+			productService = new ProductService();
+		}
 
         public ActionResult Index()
         {
             return View();
         }
 
-		public ActionResult Details(int productId)
+		public ActionResult Details(int? productId)
 		{
-			return View("Details");
+			if(!productId.HasValue)
+				return View("Index");
+
+			var productDetails = productService.GetProductFromId((int)productId);
+
+			return View("Details", productDetails);
 		}
 			
     }

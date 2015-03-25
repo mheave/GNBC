@@ -118,9 +118,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>GNBC_DAL.dbml</DependentUpon>
     </Compile>
+    <Compile Include="Domain\Product.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Services\ProductService.cs" />
+    <Compile Include="ViewModels\ProductViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -169,7 +172,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
     <Folder Include="Resources\bootstrap-3.3.2-dist\js\" />
   </ItemGroup>
   <ItemGroup>
@@ -226,7 +228,9 @@
     <Content Include="Views\SignUp\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Products\Index.cshtml" />
+    <Content Include="Views\Products\Index.cshtml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Products\Details.cshtml" />
