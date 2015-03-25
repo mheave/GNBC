@@ -139,6 +139,7 @@
     <Content Include="Resources\CSS\2-col-portfolio.css" />
     <Content Include="Resources\CSS\shop-item.css" />
     <Content Include="Resources\images\favicon.png" />
+    <Content Include="Resources\images\products\800x300 britannia double.jpg" />
     <Content Include="Resources\images\products\gold bar 700x400.jpg" />
     <Content Include="Resources\images\products\gold coin 700x400.jpg" />
     <Content Include="Resources\images\products\silver bars 700x400.jpg" />

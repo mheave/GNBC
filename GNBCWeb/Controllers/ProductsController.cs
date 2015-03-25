@@ -29,6 +29,8 @@ namespace GNBCWeb.Controllers
 				return View("Index");
 
 			var productDetails = productService.GetProductFromId((int)productId);
+			if (productDetails == null)
+				return View("Index");
 
 			return View("Details", productDetails);
 		}

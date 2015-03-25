@@ -17,6 +17,7 @@ namespace GNBCWeb.Services {
 			
 			var productViewModel = new ProductViewModel()
 			{
+				ProductId = product.Id,
 				Title = product.Title,
 				Description =  product.Description,
 				Image = product.Image,
@@ -55,12 +56,12 @@ namespace GNBCWeb.Services {
 				Title = "Silver coins",
 				Description = "Some desciptive text about silver",
 				Price = 199.99,
-				Image = "someimage.jpg"
+				Image = "800x300 britannia double.jpg"
 			});
 
 					Products.Add(new Product()
 			{
-				Id = 1,
+				Id = 4,
 				Title = "Silver bars",
 				Description = "Some desciptive text about silver",
 				Price = 199.99,
