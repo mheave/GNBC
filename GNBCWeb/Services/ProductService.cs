@@ -36,7 +36,7 @@ namespace GNBCWeb.Services {
 			{
 				Id = 1,
 				Title = "Gold coins",
-				Description = "Some desciptive text about Gold",
+				Description = "<p>Some desciptive text about Gold</p>",
 				Price = 199.99,
 				Image = "gold coin 700x400.jpg"
 			});
@@ -45,8 +45,8 @@ namespace GNBCWeb.Services {
 			{
 				Id = 2,
 				Title = "Gold bars",
-				Description = "Some desciptive text about Gold bars",
-				Price = 199.99,
+				Description = "<p>Some desciptive text about Gold bars</p>",
+				Price = 19.37,
 				Image = "gold bar 700x400.jpg"
 			});
 
@@ -54,8 +54,8 @@ namespace GNBCWeb.Services {
 			{
 				Id = 3,
 				Title = "Silver coins",
-				Description = "Some desciptive text about silver",
-				Price = 199.99,
+				Description = "<p>The 2015 1 oz Silver Britannia bullion coin. Minted in the finest silver, the new 2015 Britannia is perfect for investment or as a great unusual gift.</p><p>With a face value of two pounds, the legal tender Britannia enjoys freedom from Capital Gains Tax, making these coins extremely attractive for UK based investors.</p>",
+				Price = 19.37,
 				Image = "800x300 britannia double.jpg"
 			});
 
@@ -63,7 +63,7 @@ namespace GNBCWeb.Services {
 			{
 				Id = 4,
 				Title = "Silver bars",
-				Description = "Some desciptive text about silver",
+				Description = "<p>Some desciptive text about silver</p>",
 				Price = 199.99,
 				Image = "silver bars 700x400.jpg"
 			});
