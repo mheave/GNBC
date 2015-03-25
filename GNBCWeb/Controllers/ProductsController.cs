@@ -20,7 +20,7 @@ namespace GNBCWeb.Controllers
 
         public ActionResult Index()
         {
-            return RedirectToAction("Details",new {productId = 1});
+            return RedirectToAction("Details",new {productId = 3});
         }
 
 		public ActionResult Details(int? productId)
