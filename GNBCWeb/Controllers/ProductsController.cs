@@ -12,10 +12,10 @@ namespace GNBCWeb.Controllers
     {
         //
         // GET: /Product/
-		ProductService productService;
+	    readonly ProductService _productService;
 
 		public ProductsController() {
-			productService = new ProductService();
+			_productService = new ProductService();
 		}
 
         public ActionResult Index()
@@ -28,7 +28,7 @@ namespace GNBCWeb.Controllers
 			if(!productId.HasValue)
 				return View("Index");
 
-			var productDetails = productService.GetProductFromId((int)productId);
+			var productDetails = _productService.GetProductFromId((int)productId);
 			if (productDetails == null)
 				return View("Index");
 

@@ -113,6 +113,9 @@
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Controllers\SignUpController.cs" />
     <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Data\GNBC_DAL.cs">
+      <DependentUpon>GNBC_DAL.dbml</DependentUpon>
+    </Compile>
     <Compile Include="Data\GNBC_DAL.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -130,6 +133,10 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="App_Data\GSBMoneyDB.mdf" />
+    <Content Include="App_Data\GSBMoneyDB_log.ldf">
+      <DependentUpon>GSBMoneyDB.mdf</DependentUpon>
+    </Content>
     <Content Include="Global.asax" />
     <Content Include="Resources\bootstrap-3.3.2-dist\css\bootstrap-theme.css" />
     <Content Include="Resources\bootstrap-3.3.2-dist\css\bootstrap-theme.min.css" />
@@ -172,7 +179,6 @@
     <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Resources\bootstrap-3.3.2-dist\js\" />
   </ItemGroup>
   <ItemGroup>
@@ -209,15 +215,9 @@
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Data\GNBC_DAL.dbml.layout">
+    <None Include="Data\GNBC_DAL.dbml.layout">
       <DependentUpon>GNBC_DAL.dbml</DependentUpon>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\PreciousMetals\PreciousMetals\GNB\GNB.csproj">
-      <Project>{75315ecf-93a3-47fa-b79b-8fc97e8741ac}</Project>
-      <Name>GNB</Name>
-    </ProjectReference>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\SignUp.cshtml" />

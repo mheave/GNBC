@@ -22,6 +22,7 @@ namespace GNBCWeb.Data
 	using System;
 	
 	
+	[global::System.Data.Linq.Mapping.DatabaseAttribute(Name="GSBMoneyDB")]
 	public partial class GNBC_DALDataContext : System.Data.Linq.DataContext
 	{
 		
@@ -30,6 +31,12 @@ namespace GNBCWeb.Data
     #region Extensibility Method Definitions
     partial void OnCreated();
     #endregion
+		
+		public GNBC_DALDataContext() : 
+				base(global::System.Configuration.ConfigurationManager.ConnectionStrings["GSBMoneyDBConnectionString"].ConnectionString, mappingSource)
+		{
+			OnCreated();
+		}
 		
 		public GNBC_DALDataContext(string connection) : 
 				base(connection, mappingSource)
@@ -53,6 +60,13 @@ namespace GNBCWeb.Data
 				base(connection, mappingSource)
 		{
 			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.CreateSession")]
+		public int CreateSession([global::System.Data.Linq.Mapping.ParameterAttribute(Name="Guid", DbType="NVarChar(255)")] string guid, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")] System.Nullable<int> userid)
+		{
+			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), guid, userid);
+			return ((int)(result.ReturnValue));
 		}
 	}
 }
