@@ -82,7 +82,7 @@ namespace GNBCWeb.Services {
 				Id = 6,
 				Title = "100 Gram Silver Bullion Bar",
 				Description = "<p>These minted silver bullion bars from Emirates are ideal for those who prefer smaller denomination bullion. 2.5 Grams of fine silver in each bar.</p>",
-				Price = 5.99,
+				Price = 66.81,
 				Image = "800x300 silver bar 2.5g.jpg"
 			});
 
@@ -91,7 +91,7 @@ namespace GNBCWeb.Services {
 				Id = 7,
 				Title = "250 Gram Silver Bullion Bar",
 				Description = "<p>These minted silver bullion bars from Emirates are ideal for those who prefer smaller denomination bullion. 2.5 Grams of fine silver in each bar.</p>",
-				Price = 5.99,
+				Price = 147.96,
 				Image = "800x300 silver bar 2.5g.jpg"
 			});
 
@@ -109,7 +109,7 @@ namespace GNBCWeb.Services {
 				Id = 9,
 				Title = "10oz Silver Bullion Bar",
 				Description = "<p>These minted silver bullion bars from Emirates are ideal for those who prefer smaller denomination bullion. 2.5 Grams of fine silver in each bar.</p>",
-				Price = 5.99,
+				Price = 183.22,
 				Image = "800x300 silver bar 2.5g.jpg"
 			});
 
@@ -118,7 +118,7 @@ namespace GNBCWeb.Services {
 				Id = 10,
 				Title = "Gold Sovereign 2015",
 				Description = "<p>The Gold sovereign has been an icon of British coinage for over 600 years. Struck in 24 karat gold, with a fine metal content of 7.32 grams, these are a best seller and a favourite coin for UK investors. Enjoy the benefits of Capital Gains Tax exemption on this coin.</p>",
-				Price = 5.99,
+				Price = 227.72,
 				Image = "800x300 gold coin.jpg"
 			});
 		}
