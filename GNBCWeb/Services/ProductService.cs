@@ -99,8 +99,8 @@ namespace GNBCWeb.Services {
 			{
 				Id = 8,
 				Title = "500 Gram Silver Bullion Bar",
-				Description = "<p>These minted silver bullion bars from Emirates are ideal for those who prefer smaller denomination bullion. 2.5 Grams of fine silver in each bar.</p>",
-				Price = 5.99,
+				Description = "<p>These substantial; bars are cast with the serious investor in mind. 500 grams of fine silver make these bars a superb store of value.</p>",
+				Price = 279.77,
 				Image = "800x300 silver bar.jpg"
 			});
 
