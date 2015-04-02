@@ -55,7 +55,7 @@ namespace GNBCWeb.Services {
 				Id = 3,
 				Title = "Canadian Maple Leaf",
 				Description = "<p>The 2015 Canadian Maple Leaf siver bullion coin. The Royal Canadian Mint have sruck the Maple Leaf for 25 years. This is a popular coin with investors and collectors. </p>",
-				Price = 19.47,
+				Price = 18.47,
 				Image = "800x300 maple leaf.jpg"
 			});
 
