@@ -37,20 +37,20 @@ namespace GNBCWeb.Services {
 				Id = 1,
 				Title = "Silver Britannia",
 				Description = "<p>The new 2015 Silver Britannia from The Royal Mint. Struck in the finest silver, this iconic coin is ideal for UK based investors due to its status as british legal tender, making it Capital Gains Tax free. The fine silver Britannia remains our most popular bullion coin with those who prefer a more easily divisible portfolio, and is a must for any serious investor looiking to maximise their gains.</p>",
-				Price = 18.89,
-				Image = "gold coin 700x400.jpg"
+				Price = 18.77,
+				Image = "800x300 britannia double.jpg"
 			});
 		
 			Products.Add(new Product()
 			{
 				Id = 2,
 				Title = "Austrian Philharmonic",
-				Description = "<p>Silver Austrian Philharmonic. This latest silver bullion coin from the Austrian Mint is made from the purest silver in the world. This coin is popular with investrs and collectors alike. </p>",
+				Description = "<p>Silver Austrian Philharmonic 2015 1oz. This latest silver bullion coin from the Austrian Mint is made from the purest silver in the world. This coin is popular with investors and collectors alike due to its rich history and standing. </p>",
 				Price = 17.99,
-				Image = "gold bar 700x400.jpg"
+				Image = "800x300 austrian phil.jpg"
 			});
 
-					Products.Add(new Product()
+			Products.Add(new Product()
 			{
 				Id = 3,
 				Title = "Canadian Maple Leaf",
@@ -59,13 +59,58 @@ namespace GNBCWeb.Services {
 				Image = "800x300 britannia double.jpg"
 			});
 
-					Products.Add(new Product()
+			Products.Add(new Product()
 			{
 				Id = 4,
 				Title = "2.5 Gram Silver Bullion Bar",
-				Description = "<p></p>",
-				Price = 199.99,
-				Image = "silver bars 700x400.jpg"
+				Description = "<p>These minted silver bullion bars from Emirates are ideal for those who prefer smaller denomination bullion. 2.5 grams of fine silver in each bar.</p>",
+				Price = 5.99,
+				Image = "800x300 silver bar 2.5g.jpg"
+			});
+
+			Products.Add(new Product()
+			{
+				Id = 5,
+				Title = "5 Gram Silver Bullion Bar",
+				Description = "<p>These minted silver bullion bars from Emirates are ideal for those who prefer smaller denomination bullion. 5 grams of fine silver in each bar.</p>",
+				Price = 7.99,
+				Image = "800x300 silver bar 2.5g.jpg"
+			});
+
+			Products.Add(new Product()
+			{
+				Id = 6,
+				Title = "100 Gram Silver Bullion Bar",
+				Description = "<p>These minted silver bullion bars from Emirates are ideal for those who prefer smaller denomination bullion. 2.5 Grams of fine silver in each bar.</p>",
+				Price = 5.99,
+				Image = "800x300 silver bar 2.5g.jpg"
+			});
+
+			Products.Add(new Product()
+			{
+				Id = 7,
+				Title = "250 Gram Silver Bullion Bar",
+				Description = "<p>These minted silver bullion bars from Emirates are ideal for those who prefer smaller denomination bullion. 2.5 Grams of fine silver in each bar.</p>",
+				Price = 5.99,
+				Image = "800x300 silver bar 2.5g.jpg"
+			});
+
+			Products.Add(new Product()
+			{
+				Id = 8,
+				Title = "500 Gram Silver Bullion Bar",
+				Description = "<p>These minted silver bullion bars from Emirates are ideal for those who prefer smaller denomination bullion. 2.5 Grams of fine silver in each bar.</p>",
+				Price = 5.99,
+				Image = "800x300 silver bar 2.5g.jpg"
+			});
+
+			Products.Add(new Product()
+			{
+				Id = 9,
+				Title = "10oz Silver Bullion Bar",
+				Description = "<p>These minted silver bullion bars from Emirates are ideal for those who prefer smaller denomination bullion. 2.5 Grams of fine silver in each bar.</p>",
+				Price = 5.99,
+				Image = "800x300 silver bar 2.5g.jpg"
 			});
 		}
 	}
