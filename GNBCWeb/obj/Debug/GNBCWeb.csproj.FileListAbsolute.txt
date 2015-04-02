@@ -79,3 +79,16 @@ D:\Personal\greatnorthbullioncompany\GNBCWeb\obj\Debug\GNBCWeb.csprojResolveAsse
 D:\Personal\greatnorthbullioncompany\GNBCWeb\obj\Debug\GNBCWeb.dll
 D:\Personal\greatnorthbullioncompany\GNBCWeb\obj\Debug\GNBCWeb.pdb
 D:\Personal\greatnorthbullioncompany\GNBCWeb\bin\Views\Products\Index.cshtml
+D:\Personal\greatnorthbullioncompany\GNBCWeb\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Personal\greatnorthbullioncompany\GNBCWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Personal\greatnorthbullioncompany\GNBCWeb\bin\Microsoft.Owin.dll
+D:\Personal\greatnorthbullioncompany\GNBCWeb\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Personal\greatnorthbullioncompany\GNBCWeb\bin\Microsoft.Owin.Security.dll
+D:\Personal\greatnorthbullioncompany\GNBCWeb\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Personal\greatnorthbullioncompany\GNBCWeb\bin\Owin.dll
+D:\Personal\greatnorthbullioncompany\GNBCWeb\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Personal\greatnorthbullioncompany\GNBCWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Personal\greatnorthbullioncompany\GNBCWeb\bin\Microsoft.Owin.xml
+D:\Personal\greatnorthbullioncompany\GNBCWeb\bin\Microsoft.Owin.Security.xml
+D:\Personal\greatnorthbullioncompany\GNBCWeb\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Personal\greatnorthbullioncompany\GNBCWeb\bin\Microsoft.Owin.Security.OAuth.xml
