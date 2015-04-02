@@ -56,7 +56,7 @@ namespace GNBCWeb.Services {
 				Title = "Canadian Maple Leaf",
 				Description = "<p>The 2015 Canadian Maple Leaf siver bullion coin. The Royal Canadian Mint have sruck the Maple Leaf for 25 years. This is a popular coin with investors and collectors. </p>",
 				Price = 19.47,
-				Image = "800x300 britannia double.jpg"
+				Image = "800x300 maple leaf.jpg"
 			});
 
 			Products.Add(new Product()
@@ -101,7 +101,7 @@ namespace GNBCWeb.Services {
 				Title = "500 Gram Silver Bullion Bar",
 				Description = "<p>These minted silver bullion bars from Emirates are ideal for those who prefer smaller denomination bullion. 2.5 Grams of fine silver in each bar.</p>",
 				Price = 5.99,
-				Image = "800x300 silver bar 2.5g.jpg"
+				Image = "800x300 silver bar.jpg"
 			});
 
 			Products.Add(new Product()
