@@ -75,7 +75,6 @@ D:\Personal\greatnorthbullioncompany\GNBCWeb\bin\System.Web.Razor.xml
 D:\Personal\greatnorthbullioncompany\GNBCWeb\bin\System.Web.WebPages.xml
 D:\Personal\greatnorthbullioncompany\GNBCWeb\bin\System.Web.WebPages.Deployment.xml
 D:\Personal\greatnorthbullioncompany\GNBCWeb\bin\System.Web.WebPages.Razor.xml
-D:\Personal\greatnorthbullioncompany\GNBCWeb\obj\Debug\GNBCWeb.csprojResolveAssemblyReference.cache
 D:\Personal\greatnorthbullioncompany\GNBCWeb\obj\Debug\GNBCWeb.dll
 D:\Personal\greatnorthbullioncompany\GNBCWeb\obj\Debug\GNBCWeb.pdb
 D:\Personal\greatnorthbullioncompany\GNBCWeb\bin\Views\Products\Index.cshtml
