@@ -35,7 +35,7 @@ namespace GNBCWeb.Services {
 			Products.Add(new Product()
 			{
 				Id = 1,
-				Title = "Silver Britannia",
+				Title = "Silver Britannia 2015",
 				Description = "<p>The new 2015 Silver Britannia from The Royal Mint. Struck in the finest silver, this iconic coin is ideal for UK based investors due to its status as british legal tender, making it Capital Gains Tax free. The fine silver Britannia remains our most popular bullion coin with those who prefer a more easily divisible portfolio, and is a must for any serious investor looiking to maximise their gains.</p>",
 				Price = 18.77,
 				Image = "800x300 britannia double.jpg"
@@ -44,9 +44,10 @@ namespace GNBCWeb.Services {
 			Products.Add(new Product()
 			{
 				Id = 2,
-				Title = "Austrian Philharmonic",
-				Description = "<p>Silver Austrian Philharmonic 2015 1oz. This latest silver bullion coin from the Austrian Mint is made from the purest silver in the world. This coin is popular with investors and collectors alike due to its rich history and standing. </p>",
-				Price = 17.99,
+				Title = "Silver Britannia 2014",
+				Description = "<p>The silver Britannia 2014 Horse mark privy. " +
+				              "This coin is popular with investors and collectors alike due to its rich history and standing. </p>",
+				Price = 19.17,
 				Image = "800x300 austrian phil.jpg"
 			});
 
@@ -118,9 +119,19 @@ namespace GNBCWeb.Services {
 				Id = 10,
 				Title = "Gold Sovereign 2015",
 				Description = "<p>The Gold sovereign has been an icon of British coinage for over 600 years. Struck in 24 karat gold, with a fine metal content of 7.32 grams, these are a best seller and a favourite coin for UK investors. Enjoy the benefits of Capital Gains Tax exemption on this coin.</p>",
-				Price = 227.72,
+				Price = 221.72,
 				Image = "800x300 gold coin.jpg"
 			});
+
+			Products.Add(new Product()
+			{
+				Id = 11,
+				Title = "Gold Bar 1 gram",
+				Description = "<p>This is the very cheapest way to buy one gram of Gold. These are our best value bars from either Heraeus or Umicore.</p>",
+				Price = 36.95,
+				Image = "800x300 gold coin.jpg"
+			});
+
 		}
 	}
 }
