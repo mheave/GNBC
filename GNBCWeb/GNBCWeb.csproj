@@ -259,6 +259,7 @@
     <Content Include="Views\Account\SendCode.cshtml" />
     <Content Include="Views\Account\VerifyCode.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
+    <Content Include="Views\Home\PayPalButton.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\SignUp.cshtml" />
