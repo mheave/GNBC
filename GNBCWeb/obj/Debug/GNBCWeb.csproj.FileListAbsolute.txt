@@ -91,3 +91,4 @@ D:\Personal\greatnorthbullioncompany\GNBCWeb\bin\Microsoft.Owin.xml
 D:\Personal\greatnorthbullioncompany\GNBCWeb\bin\Microsoft.Owin.Security.xml
 D:\Personal\greatnorthbullioncompany\GNBCWeb\bin\Microsoft.Owin.Security.Cookies.xml
 D:\Personal\greatnorthbullioncompany\GNBCWeb\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Personal\greatnorthbullioncompany\GNBCWeb\obj\Debug\GNBCWeb.csprojResolveAssemblyReference.cache
