@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Database Name="GSBMoneyDB" Class="GNBC_DALDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\GSBMoneyDB.mdf;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="GSBMoneyDBConnectionString" Provider="System.Data.SqlClient" />
-  <Function Name="dbo.CreateSession" Method="CreateSession">
-    <Parameter Name="Guid" Parameter="guid" Type="System.String" DbType="NVarChar(255)" />
-    <Parameter Name="userid" Type="System.Int32" DbType="Int" />
-    <Return Type="System.Int32" />
-  </Function>
-</Database>

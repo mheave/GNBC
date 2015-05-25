@@ -16,25 +16,17 @@
 		<div class="col-md-3">
 			<p class="lead">Shop</p>
 			<div class="list-group">
-				<a href="@Url.Action("Details", new {productId=1})" class="list-group-item@(Model.ProductId == 1 ? " active" : "")">Silver Britannia 2015</a>
-				<a href="@Url.Action("Details", new {productId=2})" class="list-group-item@(Model.ProductId == 2 ? " active" : "")">Silver Britannia 2014</a>
-				<!--<a href="@Url.Action("Details", new {productId=3})" class="list-group-item@(Model.ProductId == 3 ? " active" : "")">Canadian Maple Leaf</a>
-				<a href="@Url.Action("Details", new {productId = 4})" class="list-group-item@(Model.ProductId == 4 ? " active" : "")">2.5g gram silver bars</a>
-				<a href="@Url.Action("Details", new {productId = 5})" class="list-group-item@(Model.ProductId == 5? " active" : "")">5 gram silver bars</a>
-				<a href="@Url.Action("Details", new {productId = 6})" class="list-group-item@(Model.ProductId == 6 ? " active" : "")">100 gram silver bars</a>
-				<a href="@Url.Action("Details", new {productId = 7})" class="list-group-item@(Model.ProductId == 7 ? " active" : "")">250 gram silver bars</a>
-				<a href="@Url.Action("Details", new {productId = 8})" class="list-group-item@(Model.ProductId == 8 ? " active" : "")">500 gram silver bars</a>
-				<a href="@Url.Action("Details", new {productId = 9})" class="list-group-item@(Model.ProductId == 9 ? " active" : "")">10 oz silver bars</a>-->
-				<a href="@Url.Action("Details", new {productId = 10})" class="list-group-item@(Model.ProductId == 10 ? " active" : "")">Gold Sovereign 2015</a>
-				<a href="@Url.Action("Details", new {productId = 11})" class="list-group-item@(Model.ProductId == 11 ? " active" : "")">Gold Bar 1 gram</a>	
+				@foreach (var menuItem in Model.ProductSelectMenuItems) {
+					@Html.Partial("Partial/ProductMenu",menuItem);
+				}
 			</div>
 		</div>
 		<div class="col-md-9">
 			<div class="thumbnail">
 
 				<div class="caption-full">
-					<img class="img-rounded" src="~/Resources/images/products/@Model.Image" alt="">
-					<h4 class="pull-right">£@Model.Price</h4>
+					<img class="img-rounded" src="~/Resources/images/products/@string.Format("{0}.jpg",Model.ProductId)" alt="@Model.Title">
+					<h4 class="pull-right">£@Model.Price.ToString("#.##")</h4>
 					<h4>
 						<a href="#">@Model.Title</a>
 					</h4>
@@ -50,10 +42,7 @@
 						<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
 						<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
 					</form>
-
-
 				</div>
-
 			</div>
 		</div>
 	</div>

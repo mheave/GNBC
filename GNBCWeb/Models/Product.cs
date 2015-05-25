@@ -8,8 +8,15 @@ namespace GNBCWeb.Domain {
 		public int Id { get; set; }
 		public string Title { get; set; }
 		public string Description { get; set; }
-		public double Price { get; set; }
+		public decimal Price { get; set; }
 		public string Image { get; set; }
 		public string PayPalButtonId { get; set; }
 	}
+
+	public class ProductSelectMenuItem {
+		public int ProductId { get; set; }
+		public string LinkText { get; set; }
+		public bool IsSelected { get; set; }
+	}
+
 }

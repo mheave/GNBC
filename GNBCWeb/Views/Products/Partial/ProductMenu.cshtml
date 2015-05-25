@@ -1,0 +1,2 @@
+﻿@model GNBCWeb.Domain.ProductSelectMenuItem
+<a href="@Url.Action("Details","Products", new {productId = Model.ProductId})" class="list-group-item@(Model.IsSelected ? " active" : "")">@Model.LinkText</a>

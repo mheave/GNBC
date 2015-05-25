@@ -137,13 +137,10 @@
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Controllers\SignUpController.cs" />
     <Compile Include="Controllers\UserController.cs" />
-    <Compile Include="Data\GNBC_DAL.cs">
-      <DependentUpon>GNBC_DAL.dbml</DependentUpon>
-    </Compile>
-    <Compile Include="Data\GNBC_DAL.designer.cs">
+    <Compile Include="Data\GoldSilverMoneyDb.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>GNBC_DAL.dbml</DependentUpon>
+      <DependentUpon>GoldSilverMoneyDb.dbml</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ContactViewModel.cs" />
@@ -152,7 +149,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Services\PayPalService.cs" />
     <Compile Include="Services\ProductService.cs" />
+    <Compile Include="ViewModels\ProductMenuViewModel.cs" />
     <Compile Include="ViewModels\ProductViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -173,16 +172,21 @@
     <Content Include="Resources\CSS\2-col-portfolio.css" />
     <Content Include="Resources\CSS\shop-item.css" />
     <Content Include="Resources\images\favicon.png" />
-    <Content Include="Resources\images\products\800x300 austrian phil.jpg" />
-    <Content Include="Resources\images\products\800x300 britannia double.jpg" />
-    <Content Include="Resources\images\products\800x300 gold coin.jpg" />
-    <Content Include="Resources\images\products\800x300 maple leaf.jpg" />
-    <Content Include="Resources\images\products\800x300 silver bar 2.5g.jpg" />
-    <Content Include="Resources\images\products\800x300 silver bar.jpg" />
-    <Content Include="Resources\images\products\gold bar 700x400.jpg" />
-    <Content Include="Resources\images\products\gold coin 700x400.jpg" />
-    <Content Include="Resources\images\products\silver bars 700x400.jpg" />
-    <Content Include="Resources\images\products\silver coin 700x400.jpg" />
+    <Content Include="Resources\images\products\10.JPG" />
+    <Content Include="Resources\images\products\6.JPG" />
+    <Content Include="Resources\images\products\7.JPG" />
+    <Content Include="Resources\images\products\8.JPG" />
+    <Content Include="Resources\images\products\800x300_etc_\800x300 austrian phil.jpg" />
+    <Content Include="Resources\images\products\800x300_etc_\800x300 britannia double.jpg" />
+    <Content Include="Resources\images\products\800x300_etc_\800x300 gold coin.jpg" />
+    <Content Include="Resources\images\products\800x300_etc_\800x300 maple leaf.jpg" />
+    <Content Include="Resources\images\products\800x300_etc_\800x300 silver bar 2.5g.jpg" />
+    <Content Include="Resources\images\products\800x300_etc_\800x300 silver bar.jpg" />
+    <Content Include="Resources\images\products\800x300_etc_\gold bar 700x400.jpg" />
+    <Content Include="Resources\images\products\800x300_etc_\gold coin 700x400.jpg" />
+    <Content Include="Resources\images\products\800x300_etc_\silver bars 700x400.jpg" />
+    <Content Include="Resources\images\products\800x300_etc_\silver coin 700x400.jpg" />
+    <Content Include="Resources\images\products\9.JPG" />
     <Content Include="Resources\js\bootstrap.js" />
     <Content Include="Resources\js\bootstrap.min.js" />
     <Content Include="Resources\js\jquery.js" />
@@ -237,19 +241,9 @@
     <Content Include="Views\Home\About.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Data\GNBC_DAL.dbml">
-      <Generator>MSLinqToSQLGenerator</Generator>
-      <LastGenOutput>GNBC_DAL.designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Data\GNBC_DAL.dbml.layout">
-      <DependentUpon>GNBC_DAL.dbml</DependentUpon>
-    </None>
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
     <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
     <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
@@ -284,6 +278,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Products\Details.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\GoldSilverMoneyDb.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>GoldSilverMoneyDb.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\GoldSilverMoneyDb.dbml.layout">
+      <DependentUpon>GoldSilverMoneyDb.dbml</DependentUpon>
+    </None>
+    <Content Include="Views\Products\Partial\ProductMenu.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

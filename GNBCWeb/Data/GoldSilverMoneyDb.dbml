@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="GoldSilverMoneyDb" Class="GoldSilverMoneyDbDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=tcp:i429bswt0f.database.windows.net,1433;Initial Catalog=GoldSilverMoneyDb;Persist Security Info=True;User ID=dbuser@i429bswt0f" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="GoldSilverMoneyDbConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.PayPalSelectOptions" Member="PayPalSelectOptions">
+    <Type Name="PayPalSelectOption">
+      <Column Name="optionId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OptionValue" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OptionText" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Products" Member="Products">
+    <Type Name="Product">
+      <Column Name="productId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="PriceInGbp" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="PayPalButtonId" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="CreatedOrLastUpdated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
