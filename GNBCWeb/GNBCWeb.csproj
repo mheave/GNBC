@@ -173,6 +173,8 @@
     <Content Include="Resources\CSS\shop-item.css" />
     <Content Include="Resources\images\favicon.png" />
     <Content Include="Resources\images\products\10.JPG" />
+    <Content Include="Resources\images\products\11.jpg" />
+    <Content Include="Resources\images\products\12.png" />
     <Content Include="Resources\images\products\6.JPG" />
     <Content Include="Resources\images\products\7.JPG" />
     <Content Include="Resources\images\products\8.JPG" />
