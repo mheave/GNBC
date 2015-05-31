@@ -83,6 +83,13 @@ namespace GNBCWeb.Data
 				return this.GetTable<Product>();
 			}
 		}
+		
+		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.usp_addOrderLogItem")]
+		public int usp_addOrderLogItem([global::System.Data.Linq.Mapping.ParameterAttribute(DbType="NVarChar(255)")] string sessionId, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="Int")] System.Nullable<int> eventType, [global::System.Data.Linq.Mapping.ParameterAttribute(DbType="NVarChar(500)")] string eventDetail)
+		{
+			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), sessionId, eventType, eventDetail);
+			return ((int)(result.ReturnValue));
+		}
 	}
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.PayPalSelectOptions")]

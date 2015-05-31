@@ -15,7 +15,14 @@ namespace GNBCWeb {
 
 		WebApiConfig.Register(GlobalConfiguration.Configuration);
 		FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
+
 		RouteConfig.RegisterRoutes(RouteTable.Routes);
+		}
+
+		protected void Session_Start(Object sender, EventArgs e) 
+		{
+		   Guid sessionid = Guid.NewGuid();
+		   HttpContext.Current.Session.Add("_gsbm_session",sessionid);
 		}
 	}
 }
