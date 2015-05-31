@@ -173,8 +173,10 @@
     <Content Include="Resources\bootstrap-3.3.2-dist\css\bootstrap.min.css" />
     <Content Include="Resources\bootstrap-3.3.2-dist\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Resources\CSS\2-col-portfolio.css" />
+    <Content Include="Resources\CSS\gsbStyle.css" />
     <Content Include="Resources\CSS\shop-item.css" />
     <Content Include="Resources\images\favicon.png" />
+    <Content Include="Resources\images\gsbLogo.jpg" />
     <Content Include="Resources\images\products\10.JPG" />
     <Content Include="Resources\images\products\11.jpg" />
     <Content Include="Resources\images\products\12.jpg" />
