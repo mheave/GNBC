@@ -24,6 +24,7 @@ namespace GNBCWeb.Services {
 				Description =  product.Description,
 				Price = product.Price,
 				PayPalButtonId = product.PayPalButtonId
+
 			};
 
 			return productViewModel;
@@ -36,7 +37,8 @@ namespace GNBCWeb.Services {
 				Title = product.Title,
 				Description = product.Description,
 				Price = product.PriceInGbp,
-				PayPalButtonId = product.PayPalButtonId
+				PayPalButtonId = product.PayPalButtonId,
+				OrderPosition = product.OrderPosition ?? 0
 			});
 			return productsFromDb;
 		}

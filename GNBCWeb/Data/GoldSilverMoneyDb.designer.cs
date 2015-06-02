@@ -244,6 +244,8 @@ namespace GNBCWeb.Data
 		
 		private System.Nullable<System.DateTime> _CreatedOrLastUpdated;
 		
+		private System.Nullable<int> _OrderPosition;
+		
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
@@ -260,6 +262,8 @@ namespace GNBCWeb.Data
     partial void OnPayPalButtonIdChanged();
     partial void OnCreatedOrLastUpdatedChanging(System.Nullable<System.DateTime> value);
     partial void OnCreatedOrLastUpdatedChanged();
+    partial void OnOrderPositionChanging(System.Nullable<int> value);
+    partial void OnOrderPositionChanged();
     #endregion
 		
 		public Product()
@@ -383,6 +387,26 @@ namespace GNBCWeb.Data
 					this._CreatedOrLastUpdated = value;
 					this.SendPropertyChanged("CreatedOrLastUpdated");
 					this.OnCreatedOrLastUpdatedChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_OrderPosition", DbType="Int")]
+		public System.Nullable<int> OrderPosition
+		{
+			get
+			{
+				return this._OrderPosition;
+			}
+			set
+			{
+				if ((this._OrderPosition != value))
+				{
+					this.OnOrderPositionChanging(value);
+					this.SendPropertyChanging();
+					this._OrderPosition = value;
+					this.SendPropertyChanged("OrderPosition");
+					this.OnOrderPositionChanged();
 				}
 			}
 		}

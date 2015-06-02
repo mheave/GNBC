@@ -39,7 +39,7 @@ namespace GNBCWeb.Controllers
 		}
 
 		public List<ProductSelectMenuItem> ProductMenu(int selectedItem) {
-			var productList = _productService.GetProducts();
+			var productList = _productService.GetProducts().OrderBy(x=>(int)x.OrderPosition);
 			var productMenuItemList = productList.Select(product => new ProductSelectMenuItem
 			{
 				ProductId = product.Id, LinkText = product.Title, IsSelected = (product.Id == selectedItem)

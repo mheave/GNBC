@@ -16,6 +16,7 @@
       <Column Name="PriceInGbp" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
       <Column Name="PayPalButtonId" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
       <Column Name="CreatedOrLastUpdated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="OrderPosition" Type="System.Int32" DbType="Int" CanBeNull="true" />
     </Type>
   </Table>
   <Function Name="dbo.usp_addOrderLogItem" Method="usp_addOrderLogItem">
